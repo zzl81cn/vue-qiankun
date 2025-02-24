@@ -6,7 +6,7 @@
   },
   "vetur.format.defaultFormatter.js": "vscode-typescript",
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#1E80FF",
+    "titleBar.activeBackground": "#0c60ce",
     "titleBar.inactiveBackground": "#1E80FF"
   },
   "vetur.validation.template": false,
