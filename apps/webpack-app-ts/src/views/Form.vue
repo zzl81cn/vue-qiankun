@@ -34,6 +34,9 @@
 <script setup>
 import { reactive, ref } from 'vue'
 import { SlForm, VueJsonEditor } from '@aehyok/components'
+defineOptions({
+  name: "FormDom"
+})
 
 const formDom = ref(null)
 

@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import UploadView from '../resource/uploadView'
+import UploadView from '../resource/uploadView.vue'
 import { onMounted, reactive, computed, watch } from 'vue'
 const emit = defineEmits(['update:data'])
 const props = defineProps({

@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-import UploadView from '../resource/uploadView'
+import UploadView from '../resource/uploadView.vue'
 import { reactive } from 'vue'
 const emit = defineEmits(['update:data'])
 const props = defineProps({

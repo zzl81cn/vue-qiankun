@@ -28,6 +28,10 @@ defineProps({
   }
 })
 
+defineOptions({
+  name: 'SlForm'
+})
+
 const ifshow = (column, data) => {
   if (column && column.ifshow) {
     console.log(
